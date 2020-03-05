@@ -1,4 +1,4 @@
-# Projeto Distributed Systems - University Project
+# Distributed Systems Project - University Project
 
 The overall goal of the first project will be to realize a key-value pair storage service similar to that used by Amazon to support its web services. In this sense, the data structures used to store this information are a simple linked list and a hash table, given their high search efficiency.
 
