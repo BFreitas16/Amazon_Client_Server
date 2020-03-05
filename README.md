@@ -3,6 +3,24 @@
 The overall goal of the first project will be to realize a key-value pair storage service similar to that used by Amazon to support its web services. In this sense, the data structures used to store this information are a simple linked list and a hash table, given their high search efficiency.
 
 ----------------------------------
+## To Run The Project - Running PartX
+* Go to the project part do you wanna run and run the command ```mkdir binary object lib``` to create the essential folders to build the project successfully 
+
+* Then you can run ```make``` to build
+
+* Finally you can run the binary:
+    * Part1: You can run the default tests running ```make test```
+    * Part2/3:
+        * Server: table-server <port_number> <num_listsOfTable>
+        * Client: table-client <hostname_server>:<port_number>
+    * Part4: 
+        * Server: table-server <port_number> <num_listsOfTable> <IPZookeeper>:<port_number_Zookeeper>
+        * Client: table-client <hostname_server>:<port_number>
+
+* Note: you can do ```make clean``` to clean the object and binary files (it cleans the lib's files too). More info in each README.md inside each part of the project.
+
+
+----------------------------------
 ## Part 1
 
 In distributed systems it is necessary to exchange information via the network. This information must be sent / received correctly and can represent any data structure. In this sense, it is necessary to develop serialization / deserialization mechanisms to be used for sending / receiving information:
