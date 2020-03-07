@@ -1,8 +1,8 @@
 # Projeto 2
-## Grupo 03
-* Bruno Freitas 51468
-* Marcelo Mouta 51110
-* Pedro Marques 51021
+
+* Bruno Freitas
+* Marcelo Mouta
+* Pedro Marques
 
 Neste ficheiro vamos incluir o modo de utilização do ficheiro *makefile* e alguns detalhes de implementação em relação a cada ficheiro do projeto bem como alguns dos problemas/dificuldades que surgiram durante a realização dos mesmos.
 

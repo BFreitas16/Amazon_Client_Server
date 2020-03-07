@@ -1,7 +1,6 @@
-# Grupo 03
-# Bruno Freitas 51468 
-# Marcelo Mouta 51110 
-# Pedro Marques 51021
+# Bruno Freitas 
+# Marcelo Mouta 
+# Pedro Marques
 
 # Directories
 SRC_DIR = source
