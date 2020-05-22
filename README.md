@@ -28,7 +28,7 @@ In distributed systems it is necessary to exchange information via the network. 
 * So in project 1 the objective is to implement data structures (the hash table structure with simple linked list) and various functions to handle the manipulation of the data, to be stored in the table, as well as to manage a local hash table that supports a subset of the services defined by the hash table.
 * It should also be implemented the functions necessary to serialize (encode) and de-serialize (decode) data structures in byte arrays (to be transmitted on the network).
 
-NOTE: For more information a PDF can be found under fase3 with the name [`sd_proj1`](part1/sd_proj1.pdf)
+NOTE: For more information a PDF can be found under part1 with the name [`sd_proj1`](part1/sd_proj1.pdf)
 
 ----------------------------------
 ## Part 2
@@ -45,7 +45,7 @@ The goal is to provide applications that would use this table with a Remote Proc
     3. The client will interpret the reply message, and proceed according to the result, and then be ready for the next operation.
 * High server reliability is expected, so there can be no unchecked error conditions or inefficient memory management to prevent it from crashing, which would leave all clients without the shared table
 
-NOTE: For more information a PDF can be found under fase3 with the name [`sd_proj2`](part2/sd_proj2.pdf)
+NOTE: For more information a PDF can be found under part2 with the name [`sd_proj2`](part2/sd_proj2.pdf)
 
 ----------------------------------
 ## Part 3
@@ -57,7 +57,7 @@ This part aims to implement a concurrent system that accepts orders from multipl
 	*Adapt the server to have two threads: the main thread of the program, which is responsible for multiplexing new connections and customer requests, for responding to reading requests, and for inserting writing requests in the Task Queue; and a secondary thread, launched by the main thread, which removes the operations to be executed from the Task Queue and executes them.
 	* Ensure thread synchronization when accessing the Task Table and Queue through the use of Locks and Conditional Variables
 
-NOTE: For more information a PDF can be found under fase3 with the name [`sd_proj3`](part3/sd_proj3.pdf)
+NOTE: For more information a PDF can be found under part3 with the name [`sd_proj3`](part3/sd_proj3.pdf)
 
 ----------------------------------
 ## Part 4
@@ -73,7 +73,7 @@ This part aims to implement support fault tolerance through server state replica
 	* Send read operations to the server at the tail of the chain.
 	* Make watch on ZooKeeper in order to be notified of changes in the chain and connect to the new head and tail, if they have changed.
 
-NOTE: For more information a PDF can be found under fase3 with the name [`sd_proj4`](part4/sd_proj4.pdf)
+NOTE: For more information a PDF can be found under part4 with the name [`sd_proj4`](part4/sd_proj4.pdf)
 
 Bibliography:
 [1] (R. V. Renesse and F. B. Schneider. Chain Replication for Supporting High Throughput and Availability. OSDI. Vol. 4. No. 91–104. 2004)
