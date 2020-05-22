@@ -1,4 +1,4 @@
-# Projeto 1 
+# Amazon_Client_Server
 
 * Bruno Freitas 
 * Marcelo Mouta 
